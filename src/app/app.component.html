@@ -1,0 +1,25 @@
+<p>
+	{{ title | uppercase }}
+</p>
+
+<p>
+	String: {{ stringValue }} <br/>
+"toCamelCase" extension result: {{ stringValue.toCamelCase() }}<br>
+"toPascalCase" extension result: {{ stringValue.toPascalCase() }}<br>
+"toCapitalizeFirstLetter" extension result: {{ stringValue.toCapitalizeFirstLetter() }}
+</p>
+
+	<p>
+		Date:{{ dateValue }}<br>
+"toStringFormat" extension result: {{ dateValue.toStringFormat() }}
+</p>
+
+		<p>
+			Number: {{ numberValue }} <br/>
+"isNAN" extension result: {{ numberValue.isNAN() }}<br>
+</p>
+
+			<p>
+				Boolean: {{ booleanValue }} <br/>
+"not" extension result: {{ booleanValue.not() }}<br>
+</p>
